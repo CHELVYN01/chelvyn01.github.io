@@ -11,6 +11,8 @@
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
   <!-- bootstrap icon -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- my css -->
   <link rel="stylesheet" href="style.css">
 
@@ -49,7 +51,8 @@
   <!-- endNavbar -->
   <!-- Jumbotron  -->
   <section class="jumbotron text-center font-weight-bold">
-    <img src="img/kelvin.jpg" alt="kelvin kleden" width="200" class="rounded-circle img-thumbnail ">
+    <img src="img/kelvin.jpg" alt="kelvin kleden" width="200" class="rounded-circle img-thumbnail "
+      data-aos="zoom-in-down">
     <h1 class="display-4">Chelvyn Kleden</h1>
     <p class="lead  font-weight-bold">Student Informatics Engineering USD</p>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -68,11 +71,11 @@
         </div>
       </div>
       <div class="row justify-content-center fs-5 text-center">
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-up-right" data-aos-duration="1000">
           <p>I am a student of Informatics Engineering at Sanata Dharma University, Yogyakarta. I have taken 3 semesters
             at Sanata Dharma University, Yogyakarta.</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="200">
           <p>The soft skill that I am forming now is problem-solving. I can develop hard skills focusing on making
             desktop applications and a web.</p>
         </div>
@@ -95,7 +98,7 @@
       </div>
       <div class="row">
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500">
             <img src="img/Screenshot (59).png " class="card-img-top" alt="Project1">
             <div class="card-body">
               <h5 class="card-text">this is the desktop application project "Diary".</h5>
@@ -103,7 +106,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="200">
             <img src="img/Screenshot (60).png" class="card-img-top" alt="Project1">
             <div class="card-body">
               <h5 class="card-text">this is a "Simple Calculator" desktop application project".</h5>
@@ -111,7 +114,7 @@
           </div>
         </div>
         <div class="col-md-4 mb-3">
-          <div class="card">
+          <div class="card" data-aos="flip-left" data-aos-duration="500" data-aos-delay="300">
             <img src="img/Screenshot (61).png " class="card-img-top" alt="Project1">
             <div class="card-body">
               <h5 class="card-text">This is a "cake shop" desktop application project.</h5>
@@ -181,6 +184,13 @@
   <!-- endFooter -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true
+    });
   </script>
 
   <script>

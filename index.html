@@ -51,8 +51,7 @@
   <!-- endNavbar -->
   <!-- Jumbotron  -->
   <section class="jumbotron text-center font-weight-bold">
-    <img src="img/kelvin.jpg" alt="kelvin kleden" width="200" class="rounded-circle img-thumbnail "
-      data-aos="zoom-in-down">
+    <img src="img/kelvin.jpg" alt="kelvin kleden" width="200" class="rounded-circle img-thumbnail ">
     <h1 class="display-4">Chelvyn Kleden</h1>
     <p class="lead  font-weight-bold">Student Informatics Engineering USD</p>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -190,6 +189,31 @@
   <script>
     AOS.init({
       once: true
+
+    });
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+  <!-- gsap -->
+  <script>
+    gsap.from('.jumbotron img', {
+      duration: 1,
+      y: -100,
+      opacity: 0,
+      ease: 'bounce'
+    });
+    gsap.from('.display-4', {
+      duration: 1,
+      x: -100,
+      opacity: 0,
+      ease: 'circ'
+    });
+    gsap.from('.lead', {
+      duration: 1,
+      x: 100,
+      opacity: 0,
+      ease: 'circ'
     });
   </script>
 

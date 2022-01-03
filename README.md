@@ -1,5 +1,9 @@
-# CHELVYN01.github.io
 Portofolio
+
+web portofolio ini saya membuat dengan mengikuti salah satu youtube indonesia " Web Programing UNPAS ".
+portofolio ini adalah web pertama saya, yang saya unggah ke internet melalui github page. 
+web ini masih saya kembangkan untuk lebih menarik, agar pengunjung dapat tertarik dengan portofolio saya. 
+
 
 aplikasih yang digunakan:
 - html

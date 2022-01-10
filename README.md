@@ -12,4 +12,6 @@ Teknologi yang digunakan:
 - aos
 - gsap
 - tilt js
+
+
 link in my Portofolio : https://chelvyn01.github.io/

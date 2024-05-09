@@ -10,3 +10,19 @@
 section {
   padding-top: 5rem;
 }
+
+.card:hover {
+  /* background-color: aqua; */
+  transform: scale(2.2);
+  transition: transform 0.3s ease;
+  -webkit-transform: scale(2.2);
+  -moz-transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -o-transform: scale(2.2);
+}
+
+.card-text {
+  font-size: 14px; /* Mengurangi ukuran huruf */
+  font-family: Arial, sans-serif; /* Ganti dengan font yang Anda inginkan */
+  color: #333; /* Warna huruf */
+}
